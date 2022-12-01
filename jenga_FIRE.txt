@@ -1,0 +1,18 @@
+ Program
+   Robot Program
+     MoveJ
+       Home
+       Popup: wait for block
+       MoveJ
+         HoverBlock
+         Wait: 1.0
+         Pick_Block
+         Wait: 1.0
+         HoverBlock
+         Popup: pickBlock
+       MoveJ
+         Home
+         Popup: wait for operator readiness
+       MoveJ
+         giveBlock
+         Popup: wait for human operator to hold block
